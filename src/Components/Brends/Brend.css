@@ -1,0 +1,45 @@
+.brend_container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.brend_container p {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30.48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2a1f20;
+}
+
+.brend_container_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.brend_container_card {
+  width: 182px;
+  height: 94px;
+  padding: 19px 0px 19px 0px;
+  border-radius: 10px;
+  border: 1px solid #BCBCBC;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.brend_container_card img:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+  transition: 1s;
+}
