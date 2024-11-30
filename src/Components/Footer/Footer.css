@@ -1,0 +1,118 @@
+.footer {
+  background-color: #E8E8E8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer_container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer_container_info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.footer_container_info h4 {
+  margin-bottom: 15px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.29px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2A1F20;
+}
+
+.footer_container_info a {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.29px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2A1F20;
+}
+
+.footer_container_info form input {
+  width: 293px;
+  height: 37px;
+  padding: 0px 15px;
+  gap: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  opacity: 0px;
+  border: none;
+}
+
+.footer_container_info form button {
+  cursor: pointer;
+  width: 137px;
+  height: 37px;
+  padding: 10px 20px;
+  opacity: 0px;
+  background-color: #FB0F40;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border: none;
+}
+
+.footer_container_info p {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.85px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2A1F20;
+}
+
+.footer_container_info p i {
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.85px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FB0F40;
+}
+
+.footer_container_info b {}
+
+.footer_container_info_messeges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer_container_info_messeges img {
+  cursor: pointer;
+}
+
+.footer_container_info_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer_container_info_cards img {
+  cursor: pointer;
+}
