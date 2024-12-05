@@ -9,7 +9,7 @@ function Header() {
       <div className="header_container container">
         <div className="header_container_logo">
           <a href="#">
-            <h1>Logo uchun..?</h1>
+            <h1>Logo</h1>
           </a>
         </div>
 
