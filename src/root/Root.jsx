@@ -10,7 +10,7 @@ const Root = () => {
       <Header />
       <Navbar />
       <Department />
-      <Brend />
+      {/* <Brend /> */}
       {/* <Footer /> */}
     </div>
   );

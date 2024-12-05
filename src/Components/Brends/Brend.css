@@ -22,7 +22,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 18px;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .brend_container_card {
