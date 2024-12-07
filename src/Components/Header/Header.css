@@ -6,6 +6,12 @@
   padding-bottom: 20px;
 }
 
+.header_container_logo h1 {
+  font-family: Dancing Script;
+  font-weight: 900;
+  color: blue;
+}
+
 .header_container_links {
   display: flex;
   align-items: center;
