@@ -1,48 +1,30 @@
-export const products = [
-  {
-    id: 1,
-    image: "./",
-    price: "1 999 ₽",
-    discount: "1 999 ₽",
-    title: "Marple ",
-    info: "Футболка80 с дизайнерским принтом Super Shape 0201 абстракция на фиолетовом фоне",
-  },
-  {
-    id: 1,
-    image: "./",
-    price: "1 999 ₽",
-    discount: "1 999 ₽",
-    title: "Marple ",
-    info: "Футболка80 с дизайнерским принтом Super Shape 0201 абстракция на фиолетовом фоне",
-  },
-  {
-    id: 1,
-    image: "./",
-    price: "1 999 ₽",
-    discount: "1 999 ₽",
-    title: "Marple ",
-    info: "Футболка80 с дизайнерским принтом Super Shape 0201 абстракция на фиолетовом фоне",
-  },
-  {
-    id: 1,
-    image: "./",
-    price: "1 999 ₽",
-    discount: "1 999 ₽",
-    title: "Marple ",
-    info: "Футболка80 с дизайнерским принтом Super Shape 0201 абстракция на фиолетовом фоне",
-  },
-  {
-    id: 1,
-    image: "./",
-    price: "1 999 ₽",
-    discount: "1 999 ₽",
-    title: "Marple ",
-    info: "Футболка80 с дизайнерским принтом Super Shape 0201 абстракция на фиолетовом фоне",
-  },
-];
+// import smartfon from "./assets/img/popularCategories/image 3.png";
 
-export const products_2 = [
+export const popularCategories = [
   {
     id: 1,
+    image: "../src/assets/img/popularCategories/image 3.png",
+    title: "Смартфоны",
   },
+  {
+    id: 1,
+    image: "../src/assets/img/popularCategories/image 3.png",
+    title: "Смартфоны",
+  },
+  {
+    id: 1,
+    image: "../src/assets/img/popularCategories/image 3.png",
+    title: "Смартфоны",
+  },
+  {
+    id: 1,
+    image: "../src/assets/img/popularCategories/image 3.png",
+    title: "Смартфоны",
+  },
+  {
+    id: 1,
+    image: "../src/assets/img/popularCategories/image 3.png",
+    title: "Смартфоны",
+  },
+  //
 ];
