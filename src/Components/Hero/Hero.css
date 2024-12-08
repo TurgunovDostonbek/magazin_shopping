@@ -1,0 +1,77 @@
+.hero_container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-size: cover;
+  background-image: url("../../assets/img/hero/hero_bacro.png");
+}
+
+.hero_container_info p {
+  font-family: Nunito;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 65.47px;
+  letter-spacing: 0.04em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  color: #FFB000;
+}
+
+.hero_container_info span {
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 43.65px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+
+.hero_container_info b {
+  font-family: Nunito;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 87.3px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFB000;
+}
+
+.hero_container_info button {
+  cursor: pointer;
+  width: 157px;
+  height: 39px;
+  padding: 11px 36px 9px 36px;
+  border-radius: 500px;
+  opacity: 0px;
+  background-color: #FFB000;
+  color: black;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 19.1px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.hero_container_info small {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 27.28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
