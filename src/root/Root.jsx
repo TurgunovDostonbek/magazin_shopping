@@ -2,6 +2,7 @@
 // import Brend from "../Components/Brends/Brend";
 import Department from "../Components/Department/Department";
 import Header from "../Components/Header/Header";
+import Hero from "../Components/Hero/Hero";
 import Navbar from "../Components/Navbar/Navbar";
 import PopularCategory from "../Components/Section/PopularCategory/PopularCategory";
 
@@ -11,6 +12,7 @@ const Root = () => {
       <Header />
       <Navbar />
       <Department />
+      <Hero />
       <PopularCategory />
       {/* <Brend /> */}
       {/* <Footer /> */}
