@@ -13,11 +13,11 @@ const Root = () => {
       <Header />
       <Navbar />
       <Department />
-      {/* <Hero /> */}
+      <Hero />
       <PopularCategory />
       <Brend />
       <Blog />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

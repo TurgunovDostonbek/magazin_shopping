@@ -1,11 +1,13 @@
 .hero_container {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 58px;
   margin-top: 25px;
   border-radius: 10px;
   background-size: cover;
+  background-position: center;
   background-image: url("../../assets/img/hero/hero_bacro.png");
+  padding: 10px;
 }
 
 .hero_container_info p {
@@ -61,6 +63,7 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  border: none;
 }
 
 .hero_container_info small {
@@ -74,4 +77,96 @@
   text-decoration-skip-ink: none;
   color: #FFFFFF;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 804px) {
+  .hero_container {
+    width: 100%;
+  }
+
+  .hero_container_info {
+    display: flex;
+    gap: 10px;
+  }
+
+  .hero_container_image img {
+    width: 100%;
+  }
+
+  .hero_container_info p {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .hero_container_info span {
+    font-size: 28px;
+    line-height: 25px;
+  }
+
+  .hero_container_info b {
+    font-size: 44px;
+    line-height: 30px;
+  }
+
+  .hero_container_info button {
+    cursor: pointer;
+    width: 137px;
+    height: 30px;
+    padding: 10px 34px;
+    border-radius: 500px;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+
+  .hero_container_info small {
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero_container_info {
+    display: flex;
+    gap: 10px;
+  }
+
+  .hero_container_image img {
+    width: 100%;
+  }
+
+  .hero_container_info p {
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+
+  .hero_container_info span {
+    font-size: 15px;
+    line-height: 10px;
+  }
+
+  .hero_container_info b {
+    font-size: 25px;
+    line-height: 20px;
+  }
+
+  .hero_container_info button {
+    cursor: pointer;
+    width: 84px;
+    height: 30px;
+    padding: 5px 20px;
+    border-radius: 500px;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.0em;
+    text-align: center;
+  }
+
+  .hero_container_info small {
+    font-size: 8px;
+    line-height: 10px;
+    margin-top: 5px;
+  }
 }
