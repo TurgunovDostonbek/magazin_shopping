@@ -4,7 +4,6 @@
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  overflow: hidden;
 }
 
 .popular_category_container h2 {
@@ -21,16 +20,14 @@
 .popular_category_cards {
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* flex-wrap: wrap; */
-  gap: 26px;
-  overflow: scroll;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .popular_category_card {
   width: 182px;
   height: 192px;
-  padding: 22px 36px 20px 35px;
+  padding: 22px 36px;
   border-radius: 10px;
   border: 1px solid #BCBCBC;
   opacity: 0px;
@@ -39,7 +36,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .popular_category_card p {

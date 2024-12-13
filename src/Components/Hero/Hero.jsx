@@ -1,6 +1,5 @@
 // Style
 import "./Hero.css";
-// import heroBacro from "../../assets/img/hero/hero_bacro.png";
 import heroImg from "../../assets/img/hero/hero.png";
 
 function Hero() {
