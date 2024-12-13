@@ -1,0 +1,166 @@
+.seasonal_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.seasonal_container_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seasonal_container_info h2 {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30.48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2a1f20;
+}
+
+.seasonal_container_info_btn button {
+  height: 31px;
+  padding: 7px 12px;
+  border-radius: 3px;
+  border: 1px solid #bcbcbc;
+  opacity: 0px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2a1f20;
+  background-color: white;
+}
+
+.seasonal_container_info_btn button:hover {
+  background-color: #F4F4F4;
+  cursor: pointer;
+}
+
+.seasonal_container_cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.seasonal_container_card {
+  width: 287px;
+  height: 491px;
+  border-radius: 10px;
+  opacity: 0px;
+  box-shadow: 0px 2px 7.8px 0px #00000026;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 12px;
+}
+
+.seasonal_container_card a {
+  width: 125px;
+  height: 22px;
+  padding: 3px 5px;
+  background-color: #FB0F40;
+  border-radius: 3px;
+  opacity: 0px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.85px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.seasonal_container_card span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFB000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.seasonal_container_card p {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20.72px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2a1f20;
+}
+
+.seasonal_container_card small {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  text-align: left;
+  text-decoration: double;
+  color: #8C8C8C;
+}
+
+.seasonal_container_card b {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FB0F40;
+}
+
+.seasonal_container_card button {
+  cursor: pointer;
+  width: 257px;
+  height: 37px;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 10px;
+  opacity: 0px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFF;
+  background-color: #FB0F40;
+}
+
+.seasonal_container_card button:hover {
+  color: #FFF;
+  background-color: #b0344d;
+}
+
+.seasonal_container_card button:active {
+  background-color: red;
+}
+
+.seasonal_container_card_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+  transition: 0.8s;
+}
