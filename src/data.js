@@ -30,3 +30,69 @@ export const popularCategories = [
     title: "Микроволновые печи",
   },
 ];
+
+export const Blogs = [
+  {
+    id: 1,
+    image: "../src/assets/img/blogs/blogs.png",
+    data: "21.03.24",
+    title: "Самые популярные смартфоны 2024",
+    info: "Специально для вас подготовили подборку самых популярных смартфонов.",
+  },
+  {
+    id: 2,
+    image: "../src/assets/img/blogs/blogs.png",
+    data: "21.03.24",
+    title: "Самые популярные смартфоны 2024",
+    info: "Специально для вас подготовили подборку самых популярных смартфонов.",
+  },
+  {
+    id: 3,
+    image: "../src/assets/img/blogs/blogs.png",
+    data: "21.03.24",
+    title: "Самые популярные смартфоны 2024",
+    info: "Специально для вас подготовили подборку самых популярных смартфонов.",
+  },
+  {
+    id: 4,
+    image: "../src/assets/img/blogs/blogs.png",
+    data: "21.03.24",
+    title: "Самые популярные смартфоны 2024",
+    info: "Специально для вас подготовили подборку самых популярных смартфонов.",
+  },
+];
+
+export const services = [
+  {
+    id: 1,
+    image: "",
+    starImg: "",
+    title: "",
+    price: "",
+    priceE: "",
+  },
+  {
+    id: 2,
+    image: "",
+    starImg: "",
+    title: "",
+    price: "",
+    priceE: "",
+  },
+  {
+    id: 3,
+    image: "",
+    starImg: "",
+    title: "",
+    price: "",
+    priceE: "",
+  },
+  {
+    id: 4,
+    image: "",
+    starImg: "",
+    title: "",
+    price: "",
+    priceE: "",
+  },
+];
