@@ -1,55 +1,156 @@
 .navbar_container {
-  padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 10px;
 }
 
-.navbar_logo {
-  gap: 20px;
-}
-
-.navbar_container .navbar_logo p {
-  justify-content: center;
-  width: 77px;
-  height: 77px;
-  background: linear-gradient(96.78deg, #F64D4D -57.09%, #4D5EF6 101.17%);
+.navbar_katalog button {
   cursor: pointer;
-}
-
-.navbar_logo .icons {
-  font-size: 28px;
-  color: white;
-}
-
-.navbar_search form {
-  justify-content: space-between;
-  width: 624px;
+  width: 124px;
   height: 46px;
-  border: 1px solid rgba(108, 199, 199, 0.884);
+  padding: 14px 20px;
+  border-radius: 5px;
   opacity: 0px;
-  border-radius: 4px;
-
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.29px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border: none;
+  color: white;
+  background: #FB0F40;
 }
 
-/* .navbar_search form select {
-  width: 96px;
-  height: 45px;
-  opacity: 0.1px;
+.navbar_search .navbar_search_input input {
+  width: 542px;
+  height: 46px;
+  padding: 6px 8px;
   border: none;
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  opacity: 0px;
+  padding: 14px 15.5px 14px 15px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.29px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.navbar_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navbar_btn img {
+  width: 27px;
+}
+
+.navbar_btn a {
   cursor: pointer;
-  background: rgb(137, 159, 224);
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-} */
-
-.navbar_search form input {
-  width: 450px;
-  height: 43px;
-  font-size: 18px;
-  border: none;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.85px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2A1F20;
 }
 
-.navbar_search .icons {
-  margin-right: 15px;
+/* 
+  /////////// Media Responsive /////////////
+*/
+
+@media only screen and (max-width: 930px) {
+  .navbar_container {
+    flex-direction: row-reverse;
+  }
+
+  .navbar_btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar_katalog button {
+    cursor: pointer;
+    width: 104px;
+    height: 46px;
+    padding: 12px 18px;
+    border-radius: 5px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;
+    color: white;
+    background: #FB0F40;
+  }
+
+  .navbar_search .navbar_search_input input {
+    width: 342px;
+    height: 46px;
+    padding: 6px 8px;
+    border: none;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    opacity: 0px;
+    padding: 14px 15.5px 14px 15px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .navbar_katalog button {
+    cursor: pointer;
+    width: 84px;
+    height: 46px;
+    padding: 10px 8px;
+    border-radius: 5px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;
+    color: white;
+    background: #FB0F40;
+  }
+
+  .navbar_search .navbar_search_input input {
+    width: 212px;
+    height: 46px;
+    padding: 6px 8px;
+    border: none;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    opacity: 0px;
+    padding: 14px 15.5px 14px 15px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    text-align: left;
+  }
 }

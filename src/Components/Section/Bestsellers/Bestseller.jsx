@@ -50,5 +50,4 @@ function Bestseller() {
     </div>
   );
 }
-
 export default Bestseller;

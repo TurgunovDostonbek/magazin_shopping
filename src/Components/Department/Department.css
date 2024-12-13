@@ -1,0 +1,43 @@
+.department_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.department_container a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.29px;
+  text-align: left;
+  color: #2A1F20;
+}
+
+@media only screen and (max-width: 1200px) {
+  .department_container a {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18.29px;
+    text-align: left;
+    color: #2A1F20;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .department_container a {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18.29px;
+    text-align: left;
+    color: #2A1F20;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .department_container {
+    display: none;
+  }
+}
