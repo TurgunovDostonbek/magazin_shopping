@@ -24,6 +24,11 @@
   background: #FB0F40;
 }
 
+.navbar_katalog button:active {
+  transform: scale(0.9);
+  background: red;
+}
+
 .navbar_search .navbar_search_input input {
   width: 542px;
   height: 46px;

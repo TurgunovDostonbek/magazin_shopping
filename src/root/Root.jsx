@@ -9,12 +9,17 @@ import Blog from "../Components/Section/Blog/Blog";
 import Service from "../Components/Section/Servis/Service";
 import Seasonal from "../Components/Section/SeasonalGoods/SeasonalGoods";
 import Bestseller from "../Components/Section/Bestsellers/Bestseller";
+import KatalogModal from "../Components/Modal/KatalogModal/KatalogModal";
+import { useState } from "react";
 
 const Root = () => {
+  const [katalogModal, setKatalogModal] = useState(false);
+
   return (
-    <div>
+    <div className="root">
       <Header />
-      <Navbar />
+      <Navbar setKatalogModal={setKatalogModal} katalogModal={katalogModal} />
+      {katalogModal && <KatalogModal />}
       <Department />
       <Hero />
       <PopularCategory />
