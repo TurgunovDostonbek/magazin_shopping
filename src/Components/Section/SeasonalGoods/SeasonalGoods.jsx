@@ -4,7 +4,7 @@ import { CiStar } from "react-icons/ci";
 import { FiBarChart2 } from "react-icons/fi";
 import { SlLike } from "react-icons/sl";
 import { CiBellOn } from "react-icons/ci";
-import { seasonalGoods } from "../../../data";
+import { productSeasonal } from "../../../data";
 
 function Seasonal() {
   return (
@@ -22,7 +22,7 @@ function Seasonal() {
           </div>
         </div>
         <div className="seasonal_container_cards">
-          {seasonalGoods.map((item) => {
+          {productSeasonal.map((item) => {
             return (
               <div key={item.id} className="seasonal_container_card">
                 <a href="#">Финальная цена</a>

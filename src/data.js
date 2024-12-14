@@ -69,37 +69,155 @@ export const Blogs = [
   },
 ];
 
+//............................Service.........................//
+// Service img
+import servicesImg from "../src/assets/img/servis/servis img.png";
+
 export const services = [
   {
     id: 1,
-    image: "",
-    starImg: "",
-    title: "",
-    price: "",
-    priceE: "",
+    image: [servicesImg],
+    name: "Настройка SMART TV",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
   },
   {
     id: 2,
-    image: "",
-    starImg: "",
-    title: "",
-    price: "",
-    priceE: "",
+    image: [servicesImg],
+    name: "Настройка SMART TV",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
   },
   {
     id: 3,
-    image: "",
-    starImg: "",
-    title: "",
-    price: "",
-    priceE: "",
+    image: [servicesImg],
+    name: "Настройка SMART TV",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
   },
   {
     id: 4,
-    image: "",
-    starImg: "",
-    title: "",
-    price: "",
-    priceE: "",
+    image: [servicesImg],
+    name: "Настройка SMART TV",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
+  },
+];
+
+//............................SeasonalGoods.........................//
+// SeasonalGoods Img
+import seasonalImg from "../src/assets/img/seasonal/Frame 1887.png";
+
+export const productSeasonal = [
+  {
+    id: 1,
+    image: [seasonalImg],
+    name: "Робот для мытья окон Даджет dBot W120",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
+  },
+  {
+    id: 2,
+    image: [seasonalImg],
+    name: "Робот для мытья окон Даджет dBot W120",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
+  },
+  {
+    id: 3,
+    image: [seasonalImg],
+    name: "Робот для мытья окон Даджет dBot W120",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
+  },
+  {
+    id: 4,
+    image: [seasonalImg],
+    name: "Робот для мытья окон Даджет dBot W120",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
+  },
+];
+
+//............................Bestseller.........................//
+// Bestseller Img
+import bestsellerImg from "../src/assets/img/bestseller/bestsellerimgggg.png";
+
+export const bestSellers = [
+  {
+    id: 1,
+    image: [bestsellerImg],
+    name: "Смартфон TECNO Pova 4 LG7n 8GB/128GB (серый)",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
+  },
+  {
+    id: 2,
+    image: [bestsellerImg],
+    name: "Смартфон TECNO Pova 4 LG7n 8GB/128GB (серый)",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
+  },
+  {
+    id: 3,
+    image: [bestsellerImg],
+    name: "Смартфон TECNO Pova 4 LG7n 8GB/128GB (серый)",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
+  },
+  {
+    id: 4,
+    image: [bestsellerImg],
+    name: "Смартфон TECNO Pova 4 LG7n 8GB/128GB (серый)",
+    rating: 5.0,
+    discount: "60%",
+    price: 1200,
+    originalPrice: 3000,
+    currency: "₽",
+    isAdvertisement: false,
   },
 ];
