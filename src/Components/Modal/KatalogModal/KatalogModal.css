@@ -1,0 +1,88 @@
+.katalogmodal_container {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF;
+  position: absolute;
+  left: 413px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 0px 2px 7.8px 0px #00000026;
+}
+
+.katalogmodal_container_wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.katalogmodal_container_wrapper_left {
+  width: 393px;
+  height: 796px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.katalogmodal_container_wrapper_left a {
+  width: 393px;
+  height: 48px;
+  padding: 12px 20.5px 12px 20px;
+  gap: 0px;
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0px;
+  background-color: #F4F4F4;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24.36px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2A1F20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.katalogmodal_container_wrapper_left a:hover {
+  color: #FB0F40;
+  box-shadow: 0px 2px 7.8px 0px #00000026;
+  background-color: #FFF;
+  border-left: 4px solid #FB0F40;
+}
+
+.katalogmodal_container_wrapper_right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.katalogmodal_container_wrapper_card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.katalogmodal_container_wrapper_card h2 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27.84px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2A1F20;
+}
+
+.katalogmodal_container_wrapper_card a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2A1F20;
+}
+
+.katalogmodal_container_wrapper_card a:hover {
+  color: #FB0F40;
+}

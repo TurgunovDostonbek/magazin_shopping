@@ -2,13 +2,36 @@ import "./Navbar.css";
 import navLike from "../../assets/img/like.png";
 import navBasket from "../../assets/img/basket.png";
 import navUser from "../../assets/img/user.png";
+import { useState } from "react";
+import KatalogModal from "../Modal/KatalogModal/KatalogModal";
 
-const Navbar = () => {
+const Navbar = ({ setKatalogModal, katalogModal }) => {
+  // const handleKatalog = () => {
+  //   setKatalogModal(true);
+  // };
+
   return (
     <nav className="navbar">
       <div className="navbar_container container">
         <div className="navbar_katalog">
-          <button>Каталог</button>
+          {!katalogModal && (
+            <button
+              onClick={() => {
+                setKatalogModal(true);
+              }}
+            >
+              Каталог
+            </button>
+          )}
+          {katalogModal && (
+            <button
+              onClick={() => {
+                setKatalogModal(false);
+              }}
+            >
+              Каталог
+            </button>
+          )}
         </div>
 
         <div className="navbar_search">
