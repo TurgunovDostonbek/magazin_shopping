@@ -12,6 +12,10 @@
   color: blue;
 }
 
+.header_container_logo h1:active {
+  color: #ff0033;
+}
+
 .header_container_links {
   display: flex;
   align-items: center;
@@ -30,6 +34,10 @@
   color: #2A1F20;
 }
 
+.header_container_links a:active {
+  color: #ff0033;
+}
+
 .header_container_addres {
   display: flex;
   align-items: center;
@@ -46,6 +54,12 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #2A1F20;
+}
+
+.header_container_addres a:hover img {
+  width: 20px;
+  transform: rotate(360deg);
+  transition: 0.5s;
 }
 
 /* 

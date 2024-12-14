@@ -16,7 +16,7 @@ function Header() {
           </a>
         </div>
 
-        <div className="header_container_links  ">
+        <div className="header_container_links ">
           <a href="#">О нас</a>
           <a href="#">Магазины</a>
           <a href="#">Оплата и доставка</a>

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
+  position: relative;
 }
 
 .navbar_katalog button {
@@ -68,6 +68,12 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #2A1F20;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.navbar_btn a:hover {
+  background-color: #c0bebe;
 }
 
 /* 

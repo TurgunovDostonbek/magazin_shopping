@@ -2,14 +2,11 @@ import "./Navbar.css";
 import navLike from "../../assets/img/like.png";
 import navBasket from "../../assets/img/basket.png";
 import navUser from "../../assets/img/user.png";
-import { useState } from "react";
 import KatalogModal from "../Modal/KatalogModal/KatalogModal";
+import { useState } from "react";
 
-const Navbar = ({ setKatalogModal, katalogModal }) => {
-  // const handleKatalog = () => {
-  //   setKatalogModal(true);
-  // };
-
+const Navbar = () => {
+  const [katalogModal, setKatalogModal] = useState(false);
   return (
     <nav className="navbar">
       <div className="navbar_container container">
@@ -64,6 +61,7 @@ const Navbar = ({ setKatalogModal, katalogModal }) => {
             </a>
           </div>
         </div>
+        {katalogModal && <KatalogModal />}
       </div>
     </nav>
   );
