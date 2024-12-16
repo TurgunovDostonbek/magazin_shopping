@@ -127,7 +127,7 @@
 
 .bestseller_container_card button {
   cursor: pointer;
-  width: 257px;
+  width: 100%;
   height: 37px;
   padding: 10px 0px;
   border: none;
@@ -162,4 +162,28 @@
 .icons:hover {
   transform: scale(1.2);
   transition: 0.8s;
+}
+
+@media only screen and (max-width: 1198px) {
+  .bestseller_container_info {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .bestseller_container_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .bestseller_container_card {
+    width: 387px;
+    height: 535px;
+  }
+
+  .bestseller_container_info_btn button {
+    font-size: 10px;
+  }
 }

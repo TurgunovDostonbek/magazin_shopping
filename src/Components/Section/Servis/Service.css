@@ -111,8 +111,7 @@
 
 .service_container_card button {
   cursor: pointer;
-  width: 257px;
-  height: 37px;
+  width: 100%;
   padding: 10px 0px;
   border: none;
   border-radius: 10px;
@@ -146,4 +145,29 @@
 .icons:hover {
   transform: scale(1.2);
   transition: 0.8s;
+}
+
+
+@media only screen and (max-width: 1198px) {
+  .service_container_info {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .service_container_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .service_container_card {
+    width: 387px;
+    height: 530px;
+  }
+
+  .service_container_info_btn button {
+    font-size: 10px;
+  }
 }

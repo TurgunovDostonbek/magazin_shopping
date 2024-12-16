@@ -128,8 +128,8 @@
 
 .seasonal_container_card button {
   cursor: pointer;
-  width: 257px;
-  height: 37px;
+  width: 100%;
+  height: auto;
   padding: 10px 0px;
   border: none;
   border-radius: 10px;
@@ -163,4 +163,40 @@
 .icons:hover {
   transform: scale(1.2);
   transition: 0.8s;
+}
+
+@media only screen and (max-width: 1198px) {
+  .seasonal_container_info {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .seasonal_container_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .seasonal_container_card {
+    width: 387px;
+    height: 530px;
+  }
+
+  .seasonal_container_info_btn button {
+    padding: 7px 12px;
+    border-radius: 3px;
+    border: 1px solid #bcbcbc;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2a1f20;
+    background-color: white;
+  }
 }

@@ -48,3 +48,18 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
+@media only screen and (max-width: 1198px) {
+  .popular_category_container {
+    align-items: center;
+  }
+
+  .popular_category_cards {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .popular_category_card {
+    width: 250px;
+  }
+}

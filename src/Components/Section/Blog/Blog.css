@@ -103,6 +103,11 @@
 }
 
 @media only screen and (max-width: 1198px) {
+  .blog_container_info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
   .blog_container_cards {
     flex-wrap: wrap;
     justify-content: center;
