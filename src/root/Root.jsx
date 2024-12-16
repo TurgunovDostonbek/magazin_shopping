@@ -23,7 +23,7 @@ const Root = () => {
       <Service />
       <Brend />
       <Blog />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

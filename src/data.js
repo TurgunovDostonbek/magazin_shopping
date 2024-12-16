@@ -38,31 +38,34 @@ export const popularCategories = [
   },
 ];
 
+//  ...................................... Blogs .................................//
+// Blogs Img
+import blogsImg from "../src/assets/img/blogs/blogs.png";
 export const Blogs = [
   {
     id: 1,
-    image: "../src/assets/img/blogs/blogs.png",
+    image: [blogsImg],
     data: "21.03.24",
     title: "Самые популярные смартфоны 2024",
     info: "Специально для вас подготовили подборку самых популярных смартфонов.",
   },
   {
     id: 2,
-    image: "../src/assets/img/blogs/blogs.png",
+    image: [blogsImg],
     data: "21.03.24",
     title: "Самые популярные смартфоны 2024",
     info: "Специально для вас подготовили подборку самых популярных смартфонов.",
   },
   {
     id: 3,
-    image: "../src/assets/img/blogs/blogs.png",
+    image: [blogsImg],
     data: "21.03.24",
     title: "Самые популярные смартфоны 2024",
     info: "Специально для вас подготовили подборку самых популярных смартфонов.",
   },
   {
     id: 4,
-    image: "../src/assets/img/blogs/blogs.png",
+    image: [blogsImg],
     data: "21.03.24",
     title: "Самые популярные смартфоны 2024",
     info: "Специально для вас подготовили подборку самых популярных смартфонов.",

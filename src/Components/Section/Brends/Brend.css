@@ -44,8 +44,22 @@
 }
 
 @media only screen and (max-width: 1198px) {
+
+  .brend_container {
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .brend_container_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
   .brend_container_card {
-    width: 350px;
+    width: 300px;
     height: 94px;
     padding: 19px 0px 19px 0px;
     border-radius: 10px;
