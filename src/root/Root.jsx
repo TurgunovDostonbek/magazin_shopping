@@ -1,29 +1,19 @@
-import Footer from "../Components/Footer/Footer";
-import Brend from "../Components/Section/Brends/Brend";
-import Department from "../Components/Department/Department";
 import Header from "../Components/Header/Header";
-import Hero from "../Components/Hero/Hero";
+import { Route, Routes } from "react-router-dom";
+import Home from "../pages/Home/Home";
 import Navbar from "../Components/Navbar/Navbar";
-import PopularCategory from "../Components/Section/PopularCategory/PopularCategory";
-import Blog from "../Components/Section/Blog/Blog";
-import Service from "../Components/Section/Servis/Service";
-import Seasonal from "../Components/Section/SeasonalGoods/SeasonalGoods";
-import Bestseller from "../Components/Section/Bestsellers/Bestseller";
-
+import Likes from "../pages/Likes/Likes";
+import Footer from "../Components/Footer/Footer";
 const Root = () => {
   return (
     <div>
       <Header />
       <Navbar />
-      <Department />
-      <Hero />
-      <PopularCategory />
-      <Bestseller />
-      <Seasonal />
-      <Service />
-      <Brend />
-      <Blog />
-      {/* <Footer /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/likes" element={<Likes />} />
+      </Routes>
+      <Footer />
     </div>
   );
 };

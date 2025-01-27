@@ -12,7 +12,7 @@ function Bestseller() {
     <div className="bestseller">
       <div className="bestseller_container container">
         <div className="bestseller_container_info">
-          <h2>Сервисы</h2>
+          <h2>Хиты продаж</h2>
           <div className="bestseller_container_info_btn flex_div">
             <button>Все</button>
             <button>Для компьютеров</button>

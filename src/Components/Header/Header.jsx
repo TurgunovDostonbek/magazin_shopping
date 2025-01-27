@@ -2,18 +2,19 @@
 import "./Header.css";
 import tel from "../../assets/img/tel.png";
 import location from "../../assets/img/location.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header className="header">
       <div className="header_container container">
         <div className="header_container_logo">
-          <a href="#">
+          <Link to={"/"}>
             <h1>
               Mix <br />
               Market.
             </h1>
-          </a>
+          </Link>
         </div>
 
         <div className="header_container_links ">
