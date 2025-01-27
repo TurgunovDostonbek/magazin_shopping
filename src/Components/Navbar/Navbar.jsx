@@ -4,6 +4,7 @@ import navBasket from "../../assets/img/basket.png";
 import navUser from "../../assets/img/user.png";
 import KatalogModal from "../Modal/KatalogModal/KatalogModal";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [katalogModal, setKatalogModal] = useState(false);
@@ -41,10 +42,10 @@ const Navbar = () => {
 
         <div className="navbar_btn">
           <div className="navbar_btn_like ">
-            <a href="#" className="flex_colum">
+            <Link to={"likes"} className="flex_colum">
               <img src={navLike} alt="Like" />
               Избранное
-            </a>
+            </Link>
           </div>
 
           <div className="navbar_btn_basket">
