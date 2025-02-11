@@ -11,10 +11,8 @@ const Home = () => {
     <div>
       <Hero />
       <PopulalarCategory />
-
       <Bestseller />
       <SeasonGoods />
-
       <Servis />
       <Brend />
       <Blog />
