@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import Navbar from "../Components/Navbar/Navbar";
 import Likes from "../pages/Likes/Likes";
 import Footer from "../Components/Footer/Footer";
+
 const Root = () => {
   return (
     <div>
