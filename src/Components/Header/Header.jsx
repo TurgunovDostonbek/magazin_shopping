@@ -2,9 +2,12 @@
 import "./Header.css";
 import tel from "../../assets/img/tel.png";
 import location from "../../assets/img/location.png";
+import Status from "../../pages/Status/Status";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
+  const [status, setStatus] = useState(false);
   return (
     <header className="header">
       <div className="header_container container">
@@ -21,7 +24,9 @@ function Header() {
           <a href="#">О нас</a>
           <a href="#">Магазины</a>
           <a href="#">Оплата и доставка</a>
-          <a href="#">Статус заказа</a>
+          <a onClick={() => setStatus(true)} href="#">
+            Статус заказа
+          </a>
           <a href="#">Возврат</a>
           <a href="#">Контакты</a>
         </div>
@@ -42,6 +47,7 @@ function Header() {
           </div>
         </div>
       </div>
+      {status && <Status setStatus={setStatus} />}
     </header>
   );
 }

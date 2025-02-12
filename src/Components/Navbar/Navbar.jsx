@@ -51,10 +51,10 @@ const Navbar = () => {
           </div>
 
           <div className="navbar_btn_basket">
-            <a className="flex_colum" href="#">
+            <Link className="flex_colum" to={"wishes"}>
               <img src={navBasket} alt="Basket" />
               Корзина
-            </a>
+            </Link>
           </div>
 
           <div

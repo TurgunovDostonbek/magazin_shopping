@@ -171,3 +171,22 @@
     font-size: 10px;
   }
 }
+
+@media only screen and (max-width: 730px) {
+  .service_container_info {
+    overflow-x: scroll;
+    align-items: start;
+  }
+
+  .service_container_info h2 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* text-align: left; */
+  }
+
+  .service_container_info_btn {
+    width: 630px;
+    overflow-x: scroll;
+  }
+}

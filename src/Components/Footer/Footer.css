@@ -116,3 +116,35 @@
 .footer_container_info_cards img {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1115px) {
+  .footer_container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .footer_container_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .footer_container_info h4 {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .footer_container_info form input {
+    width: 50%;
+  }
+
+
+}

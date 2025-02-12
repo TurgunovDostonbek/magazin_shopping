@@ -200,3 +200,22 @@
     background-color: white;
   }
 }
+
+@media only screen and (max-width: 730px) {
+  .seasonal_container_info {
+    overflow-x: scroll;
+    align-items: start;
+  }
+
+  .seasonal_container_info h2 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* text-align: left; */
+  }
+
+  .seasonal_container_info_btn {
+    width: 730px;
+    overflow-x: scroll;
+  }
+}
