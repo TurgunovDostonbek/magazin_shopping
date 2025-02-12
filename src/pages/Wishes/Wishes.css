@@ -1,0 +1,48 @@
+.wishes__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.wishes__heading {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30.48px;
+  letter-spacing: 0%;
+  color: #2A1F20;
+}
+
+.wishes__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.wishes__info-title {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.84px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #2A1F20;
+}
+
+.wishes__info-btn {
+  width: 178px;
+  height: 37px;
+  border-radius: 10px;
+  background-color: #FB0F40;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  border: none;
+}
