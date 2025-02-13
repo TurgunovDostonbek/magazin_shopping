@@ -93,8 +93,6 @@
   color: #FB0F40;
 }
 
-.footer_container_info b {}
-
 .footer_container_info_messeges {
   display: flex;
   align-items: center;
@@ -104,6 +102,7 @@
 
 .footer_container_info_messeges img {
   cursor: pointer;
+  width: 30px;
 }
 
 .footer_container_info_cards {
@@ -115,6 +114,7 @@
 
 .footer_container_info_cards img {
   cursor: pointer;
+  width: 55px;
 }
 
 @media only screen and (max-width: 1115px) {
@@ -146,5 +146,13 @@
     width: 50%;
   }
 
+  .footer_container_info form button {
+    width: 117px;
+    font-size: 12px;
+  }
+
+  .footer_container_info p {
+    text-align: center;
+  }
 
 }
